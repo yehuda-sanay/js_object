@@ -139,7 +139,13 @@ function sumNumber(){
     var num=prompt();
     var number= Math.floor(Math.random()*num+1);
     if(num%3==0){
-        
-        console.log(number);
+        for(var i=0;i<number;i++){
+
+            console.log(number);
+        }
+    }
+    else{
+        console.log(number*3.14);
     }
 }
+sumNumber()
