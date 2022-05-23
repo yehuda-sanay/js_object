@@ -114,8 +114,8 @@
 //     if(name1[0]==name2[0]){
 //         console.log(num);
 //     }
-//     if(name1.lastIndexOf[i]==name2.lastIndexOf[i]){
-//         console.log("r");
+//     if(name1[name1.length-1]==name2[name2.length-1]){
+//         console.log(name1[name1.length-1]);
 //     }
 //     else{
 //         console.log(age1,age2);
@@ -135,17 +135,19 @@
 
 //שאלה 48
 
-function sumNumber(){
-    var num=prompt();
-    var number= Math.floor(Math.random()*num+1);
-    if(num%3==0){
-        for(var i=0;i<number;i++){
+// function sumNumber(){
+//     var num=prompt();
+//     var number= Math.floor(Math.random()*num+1);
+//     if(num%3==0){
+//         for(var i=0;i<number;i++){
 
-            console.log(number);
-        }
-    }
-    else{
-        console.log(number*3.14);
-    }
-}
-sumNumber()
+//             console.log(number);
+//         }
+//     }
+//     else{
+//         console.log(number*3.14);
+//     }
+// }
+// sumNumber()
+
+
